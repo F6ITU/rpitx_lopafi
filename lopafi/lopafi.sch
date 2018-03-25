@@ -7,6 +7,8 @@ LIBS:Relay
 LIBS:Transistor_FET
 LIBS:ee2-5nu
 LIBS:Connector_Specialized
+LIBS:Driver_Relay
+LIBS:Interface_Expansion
 LIBS:lopafi-cache
 EELAYER 25 0
 EELAYER END

@@ -7,12 +7,14 @@ LIBS:Relay
 LIBS:Transistor_FET
 LIBS:ee2-5nu
 LIBS:Connector_Specialized
+LIBS:Driver_Relay
+LIBS:Interface_Expansion
 LIBS:lopafi-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
