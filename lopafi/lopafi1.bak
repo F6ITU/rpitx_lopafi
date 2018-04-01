@@ -1476,4 +1476,6 @@ NoConn ~ 8800 3650
 NoConn ~ 8800 3750
 Text Notes 7100 4800 1    60   Italic 0
 RF  OUT\n
+Text Notes 5400 5100 0    40   Italic 0
+(envisager de coller une liaison coax entre gpio et connecteur situé du coté opposé de la carte)
 $EndSCHEMATC

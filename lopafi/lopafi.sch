@@ -14,7 +14,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -35,11 +35,5 @@ S 3200 2300 2250 1700
 U 5AB5505A
 F0 "lopafi1" 60
 F1 "lopafi1.sch" 60
-$EndSheet
-$Sheet
-S 6750 2450 2300 1650
-U 5AB5507C
-F0 "Lopafi2" 60
-F1 "Lopafi2.sch" 60
 $EndSheet
 $EndSCHEMATC
