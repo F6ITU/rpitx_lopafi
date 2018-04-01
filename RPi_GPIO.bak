@@ -1,0 +1,221 @@
+EESchema Schematic File Version 2
+LIBS:Device
+LIBS:Diode
+LIBS:Interface
+LIBS:Interface_Expansion
+LIBS:Interface_LineDriver
+LIBS:Interface_USB
+LIBS:Mechanical
+LIBS:power
+LIBS:Relay
+LIBS:Transistor_FET
+LIBS:ee2-5nu
+LIBS:Connector_Specialized
+LIBS:Connector_Generic
+LIBS:RPi_Hat-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RPi_GPIO J1
+U 1 1 5516AE26
+P 4100 1850
+F 0 "J1" H 4850 2100 60  0000 C CNN
+F 1 "RPi_GPIO" H 4850 2000 60  0000 C CNN
+F 2 "RPi_Hat:Pin_Header_Straight_2x20" H 4100 1850 60  0001 C CNN
+F 3 "" H 4100 1850 60  0000 C CNN
+	1    4100 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 4650 4200 0    60   Italic 0
+Thru-Hole Connector
+Text GLabel 5900 1900 2    60   Input ~ 0
+5V
+Text GLabel 3850 1950 0    60   Input ~ 0
+SDA
+Text GLabel 3850 2050 0    60   Input ~ 0
+SCL
+Wire Wire Line
+	3850 1950 3900 1950
+Wire Wire Line
+	3900 2050 3850 2050
+Wire Wire Line
+	5800 1850 5800 1950
+Wire Wire Line
+	5900 1900 5800 1900
+Connection ~ 5800 1900
+$Comp
+L GND #PWR9
+U 1 1 5ABF5C6D
+P 3850 3750
+F 0 "#PWR9" H 3850 3500 50  0001 C CNN
+F 1 "GND" H 3850 3600 50  0000 C CNN
+F 2 "" H 3850 3750 50  0001 C CNN
+F 3 "" H 3850 3750 50  0001 C CNN
+	1    3850 3750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3850 3750 3900 3750
+$Comp
+L GND #PWR1
+U 1 1 5ABF5C9B
+P 5850 2050
+F 0 "#PWR1" H 5850 1800 50  0001 C CNN
+F 1 "GND" H 5850 1900 50  0000 C CNN
+F 2 "" H 5850 2050 50  0001 C CNN
+F 3 "" H 5850 2050 50  0001 C CNN
+	1    5850 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2050 5800 2050
+$Comp
+L GND #PWR4
+U 1 1 5ABF5CA5
+P 5850 2450
+F 0 "#PWR4" H 5850 2200 50  0001 C CNN
+F 1 "GND" H 5850 2300 50  0000 C CNN
+F 2 "" H 5850 2450 50  0001 C CNN
+F 3 "" H 5850 2450 50  0001 C CNN
+	1    5850 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2450 5800 2450
+$Comp
+L GND #PWR5
+U 1 1 5ABF5CAF
+P 5850 2750
+F 0 "#PWR5" H 5850 2500 50  0001 C CNN
+F 1 "GND" H 5850 2600 50  0000 C CNN
+F 2 "" H 5850 2750 50  0001 C CNN
+F 3 "" H 5850 2750 50  0001 C CNN
+	1    5850 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2750 5800 2750
+$Comp
+L GND #PWR7
+U 1 1 5ABF5CBE
+P 5850 3250
+F 0 "#PWR7" H 5850 3000 50  0001 C CNN
+F 1 "GND" H 5850 3100 50  0000 C CNN
+F 2 "" H 5850 3250 50  0001 C CNN
+F 3 "" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3250 5800 3250
+$Comp
+L GND #PWR8
+U 1 1 5ABF5CCB
+P 5850 3450
+F 0 "#PWR8" H 5850 3200 50  0001 C CNN
+F 1 "GND" H 5850 3300 50  0000 C CNN
+F 2 "" H 5850 3450 50  0001 C CNN
+F 3 "" H 5850 3450 50  0001 C CNN
+	1    5850 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3450 5800 3450
+$Comp
+L GND #PWR2
+U 1 1 5ABF5CE7
+P 3850 2250
+F 0 "#PWR2" H 3850 2000 50  0001 C CNN
+F 1 "GND" H 3850 2100 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3850 2250 3900 2250
+$Comp
+L GND #PWR6
+U 1 1 5ABF5CF1
+P 3850 3050
+F 0 "#PWR6" H 3850 2800 50  0001 C CNN
+F 1 "GND" H 3850 2900 50  0000 C CNN
+F 2 "" H 3850 3050 50  0001 C CNN
+F 3 "" H 3850 3050 50  0001 C CNN
+	1    3850 3050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3850 3050 3900 3050
+Wire Wire Line
+	5800 3350 6200 3350
+$Comp
+L Conn_Coaxial J12
+U 1 1 5ABF5DEF
+P 6350 3150
+F 0 "J12" H 6360 3270 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6465 3150 50  0000 C CNN
+F 2 "" H 6350 3150 50  0001 C CNN
+F 3 "" H 6350 3150 50  0001 C CNN
+	1    6350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J13
+U 1 1 5ABF5DF5
+P 6350 3600
+F 0 "J13" H 6360 3720 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6465 3600 50  0000 C CNN
+F 2 "" H 6350 3600 50  0001 C CNN
+F 3 "" H 6350 3600 50  0001 C CNN
+	1    6350 3600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6350 3350 6350 3400
+Wire Wire Line
+	6200 3150 6200 3600
+Connection ~ 6200 3350
+NoConn ~ 5800 3750
+NoConn ~ 5800 3650
+NoConn ~ 5800 3550
+NoConn ~ 5800 3150
+NoConn ~ 5800 3050
+NoConn ~ 5800 2950
+NoConn ~ 5800 2850
+NoConn ~ 5800 2650
+NoConn ~ 5800 2550
+NoConn ~ 5800 2350
+NoConn ~ 5800 2250
+NoConn ~ 5800 2150
+Wire Wire Line
+	3900 2150 3400 2150
+NoConn ~ 3900 1850
+NoConn ~ 3900 2350
+NoConn ~ 3900 2450
+NoConn ~ 3900 2550
+NoConn ~ 3900 2650
+NoConn ~ 3900 2750
+NoConn ~ 3900 2850
+NoConn ~ 3900 2950
+NoConn ~ 3900 3150
+NoConn ~ 3900 3250
+NoConn ~ 3900 3350
+NoConn ~ 3900 3450
+NoConn ~ 3900 3550
+NoConn ~ 3900 3650
+Text GLabel 3400 2150 0    60   Input ~ 0
+HF_Out
+$EndSCHEMATC
